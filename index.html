@@ -2,51 +2,86 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>Andrew George Lindberg</title>
+  <!--<link rel="stylesheet" type="text/css" href="style.css">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<div class="jumbotron text-center">
   <h1> Andrew Lindberg</h1>
+</div>
 
-  <img src="studentAvatar.jpeg" width="200px" alt="On the freedom trail in Boston">
-  
-  <br>
-  I am an avid cyclist, tinkerer, hacker, and technologist. Actively have a passion for all things that move. Previously lived as a mechanic, artist, and poet.
-  <br><br>
-  I currently work in the Research and Development department of a company called Protolabs. We call our group Protoworks after the legendary skunkwork aerospace teams at Lockheed and Boeing. My current role is Machinist, but I spend most of my day troubleshooting and logging software bugs in our automated machining software. 
-  <br>
-  <ul>
-    <li><a href="https://github.com/alvern">Github : alvern</a></li>
-    <li><a href="www.linkedin.com/in/andrew-george-lindberg">Linkedin</a></li>
-  </ul>
 
-  <table border=1>
-    <tr>
-      <th></th>
-      <th>Computer</th>
-      <th>Bike</th>
-      <th>Car</th>
-    </tr>
-    <tr>
-      <td> Favorite </td>
-      <td> Desktop - Linux </td>
-      <td> Surly Karate Monkey </td>
-      <td> Prius</td>
-    </tr>
-    <tr>
-        <td> Worst </td>
-        <td> Windows - Dell</td>
-        <td> Huffy </td>
-        <td> Dodge Neon</td>
-      </tr>
-    <tr>
-        <td> Best Value </td>
-        <td> Raspberry Pi </td>
-        <td> Novara </td>
-        <td> tesla</td>
-    </tr>  
-  </table>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="studentAvatar.jpeg" class="rounded float-left" width="100%" alt="On the freedom trail in Boston">
+        </div>
+        <div class="col-sm-4">  
+            <br>
+            Minneapolis, Minnesota
+            <br><br>
+            I am an avid cyclist, tinkerer, hacker, and technologist. Actively have a passion for all things that move. Previously lived as a mechanic, artist, and poet.
+            <br><br>
+            I currently work in the R&D department of a company called Protolabs. We call our group Protoworks after the skunkwork aerospace teams at Lockheed and Boeing. My current role is Machinist, but I spend most of my day troubleshooting software bugs in our automated machining software. 
+            <br><br>
+        </div>
+        <br><br>
+        <div class="col-sm-4"> 
+            <ul>
+              <li><a href="https://github.com/alvern">Github : alvern</a></li>
+              <li><a href="https://www.linkedin.com/in/andrew-george-lindberg">Linkedin</a></li>
+              <li><a href="mailto:andrewgeorgelindberg@gmail.com">Email</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-lg-auto align-self-center">
+          <table class="table">
+            <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Computer</th>
+              <th scope="col">Bike</th>
+              <th scope="col">Car</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-success">
+              <th scope="row"> Favorite </th>
+              <td> Desktop - Linux </td>
+              <td> Surly Karate Monkey </td>
+              <td> Prius</td>
+            </tr>
+            <tr class="table-danger">
+                <th scope="row"> Worst </th>
+                <td> Windows - Dell</td>
+                <td> Huffy </td>
+                <td> Dodge Caravan</td>
+              </tr>
+            <tr class="table-info">
+                <th scope="row"> Best Value </th>
+                <td> Raspberry Pi </td>
+                <td> Novara </td>
+                <td> Tesla</td>
+            </tr>
+          </tbody>  
+          </table>
+        </div>
+    </div>
+</div>
 </body>
 
 </html>
